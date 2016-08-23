@@ -4,7 +4,7 @@
 1.首先保证jQuery依赖
 
 ```
-	<script type="text/javascript" src="./js./jQuery.min.js"></script>
+	<script type="text/javascript" src="./js/jQuery.min.js"></script>
 ```
 
 2.引入插件
@@ -33,4 +33,7 @@ listContent： 列表容器
 	
 list：页码按钮容器
 
-pageMax：单页最多项目数
+pageMax：单页最多项目数(默认为8个)
+
+注：需要用户自定义按钮样式，与选中样式，
+添加选中样式时，选择器必须为.select
